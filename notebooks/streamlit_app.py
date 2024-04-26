@@ -6,7 +6,7 @@ import plotly.express as px
 from sklearn.decomposition import PCA
 
 # Load the model
-filename = '../bank_customers_segmenter.pkl'
+filename = 'bank_customers_segmenter.pkl'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 st.title('Bank Customer Segmentation')
