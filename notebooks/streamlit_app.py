@@ -11,8 +11,8 @@ loaded_model = pickle.load(open(filename, 'rb'))
 
 st.title('Bank Customer Segmentation')
 
-creditcard_df_scaled = pd.read_csv('creditcard_df_scaled.csv')
-creditcard_df_cluster = pd.read_csv('creditcard_df_cluster.csv')
+creditcard_df_scaled = pd.read_csv('notebooks/creditcard_df_scaled.csv')
+creditcard_df_cluster = pd.read_csv('notebooks/creditcard_df_cluster.csv')
 
 clusters = ['The Low Activity Group', 'The Premium, High-Spending Shopper', 'The Consistent Shopper', 'The High Balance, Cash Reliant']
 cluster_colors = ['#00427e', '#0083dd', '#80cdfd', '#e4f6ff']
