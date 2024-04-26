@@ -5,6 +5,8 @@ import pickle
 import plotly.express as px
 from sklearn.decomposition import PCA
 
+st.set_page_config(page_title='Bank Customer Segmentation', page_icon=':bar_chart:', layout='wide')
+
 # Load the model
 filename = 'bank_customers_segmenter.pkl'
 loaded_model = pickle.load(open(filename, 'rb'))
