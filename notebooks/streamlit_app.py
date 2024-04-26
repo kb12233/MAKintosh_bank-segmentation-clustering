@@ -32,7 +32,7 @@ with col1:
 with col2:
     cash_advance = st.number_input('Cash Advance', min_value=0.0, format="%.4f", step=0.0001)
     purchases_frequency = st.number_input('Purchases Frequency', min_value=0.0, max_value=1.0, format="%.4f", step=0.0001)
-    one_off_purchase_frequency = st.number_input('One-offPurchaseFrequency', min_value=0.0, max_value=1.0, format="%.4f", step=0.0001)
+    one_off_purchase_frequency = st.number_input('One-off Purchase Frequency', min_value=0.0, max_value=1.0, format="%.4f", step=0.0001)
     cash_advance_frequency = st.number_input('Cash Advance Frequency', min_value=0.0, max_value=1.0, format="%.4f", step=0.0001)
 
 with col3:
